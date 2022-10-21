@@ -3,6 +3,9 @@ let i = 0;
 let c;
 
 let start = () => {
+
+    alert("Please Note that this website needs cookies for proper functioning. If this is not possible in the browser you are using, please visit the settings pages to configure how we are able to save the data we need to");
+
     count = document.getElementById("Number");
     if (!document.cookie == ""){
         c = document.cookie;
